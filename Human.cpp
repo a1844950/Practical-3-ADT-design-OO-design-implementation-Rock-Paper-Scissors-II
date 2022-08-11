@@ -13,7 +13,7 @@ string Human::performMove()
 {
    string userHand
 
-cout<<" Enter Your Play: ";
+cout<< " Enter Your Play: ";
 
 cin >> userHand;
 
