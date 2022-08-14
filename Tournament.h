@@ -17,3 +17,5 @@ class Tournament {
        std::vector<Player*> Round3;
       
 };
+
+#endif
