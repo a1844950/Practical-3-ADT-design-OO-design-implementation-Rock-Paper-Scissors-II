@@ -1,7 +1,8 @@
- #include <iostream>
+#include <iostream>
 #include <string>
 
 #include "Human.h"
+#include "Computer.h"
 #include "Tournament.h"
 
 #include "Referee.h"
