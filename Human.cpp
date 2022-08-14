@@ -11,9 +11,9 @@ Human::~Human() {}
 
 string Human::performMove()
 {
-   cout<<" Enter Your Play: ";
-   string userHand
-   cin >> userHand;
+   cout<<" Enter Your Move: ";
+   string move
+   cin >> move;
 
-   return userHand;
+   return move;
 }
