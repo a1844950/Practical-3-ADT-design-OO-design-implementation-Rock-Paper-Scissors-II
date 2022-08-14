@@ -4,11 +4,13 @@
 #include "Player.h"
 #include <vector>
 
+using namespace std
+
 
 class Human : public Player {
    public:
        Human();
-       std::string performMove();
+       string performMove();
        ~Human();
       
    private:
