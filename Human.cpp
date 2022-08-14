@@ -11,9 +11,10 @@ Human::~Human() {}
 
 string Human::performMove()
 {
-   cout<<" Enter Your Move: ";
-   string move
-   cin >> move;
+   string userHand;
+   cout<<" Enter Your Move: "<<endl;
+   cin >> userHand;
+   
 
    return move;
 }
