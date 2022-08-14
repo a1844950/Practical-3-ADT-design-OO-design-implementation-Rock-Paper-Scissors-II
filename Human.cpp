@@ -16,5 +16,5 @@ string Human::performMove()
    cin >> userHand;
    
 
-   return move;
+   return userHand;
 }
