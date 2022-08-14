@@ -4,7 +4,7 @@
 #include "Player.h"
 #include <vector>
 
-using namespace std
+using namespace std;
 
 
 class Human : public Player {
