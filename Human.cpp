@@ -15,8 +15,8 @@ string Human::performMove()
 
 cout <<" Enter Your Play: ";
 
-cin >> userHand;
+cin >> srand;
 
-   return userHand;
+   return srand;
 }
 
