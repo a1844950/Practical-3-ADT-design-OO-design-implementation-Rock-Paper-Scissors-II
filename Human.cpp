@@ -1,5 +1,3 @@
-Human.cpp
-
 #include <string>
 #include <iostream>
 #include "Player.h"
