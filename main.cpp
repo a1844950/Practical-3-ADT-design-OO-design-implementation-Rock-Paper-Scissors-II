@@ -3,7 +3,7 @@ main.cpp
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "Computer.h"
+#include "Player.h"
 #include "Toolbox.h"
 #include "Bureaucrat.h"
 #include "Avalanche.h"
