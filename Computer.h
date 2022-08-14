@@ -1,16 +1,16 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef COMPUTER_H
+#define COMPUTER_H
 #include <string>
 
-class Player {
+class Computer {
    public:
-       Player();
-       Player(std::string);
+       Computer();
+       Computer(std::string);
        std::string getName();
        virtual std::string performMove();
        virtual void setCtr(int); // Used only in crescendo fisftfull and paperdoll
        virtual void addAnswer(std::string); // used only in AdvancedComputer
-       ~Player();
+       ~Computer();
       
    private:
        std::string name;
