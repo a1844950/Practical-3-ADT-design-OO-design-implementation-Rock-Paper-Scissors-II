@@ -1,3 +1,5 @@
+Human.cpp
+
 #include <string>
 #include <iostream>
 #include "Player.h"
@@ -13,10 +15,9 @@ string Human::performMove()
 {
    string userHand
 
-cout<< " Enter Your Play: ";
+   cout<<" Enter Your Play: ";
 
-cin >> userHand;
+   cin >> userHand;
 
    return userHand;
 }
-
