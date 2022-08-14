@@ -13,9 +13,9 @@ string Human::performMove()
 {
    string userHand
 
-   cout<<" Enter Your Play: ";
+   std::cout<<" Enter Your Play: ";
 
-   cin >> userHand;
+   std::cin >> userHand;
 
    return userHand;
 }
