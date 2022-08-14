@@ -1,5 +1,3 @@
-Tournament.h
-
 #ifndef TOURNAMENT_H
 #define TOURNAMENT_H
 #include <string>
