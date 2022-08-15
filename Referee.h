@@ -1,15 +1,19 @@
-#ifndef CHEGINTHIS_REFEREE_H
-#define CHEGINTHIS_REFEREE_H
+#ifndef REFEREE_H
+#define REFEREE_H
+#include <string>
+#include "Player.h"
+#include <vector>
 
+using namespace;
 
-
-#include "Human.h"
-class Referee {
-public:
+class Referee : Player{
+    public:
+     Referee();
+   string refGame();
+    ~Referee();
     
-    Referee();
-    // returns the outcome for player1: 'W', 'L' or 'T' (Win, Lose, Tie)
-    char refGame(Human player1, Computer player2);
+    private:
+    
 };
 
 
