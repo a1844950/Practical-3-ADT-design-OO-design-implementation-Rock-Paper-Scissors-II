@@ -1,6 +1,6 @@
 #include "Referee.h"
-//Function to check winner,loser and tie condition
-char Referee::refGame(char hPlayer, char cPlayer) {
+
+string Referee::refGame(string hPlayer, string cPlayer) {
 if (hPlayer == 'P' && cPlayer=='R') {
 return 'W';
 }
