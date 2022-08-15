@@ -1,22 +1,16 @@
-#ifndef REFEREE_H
-#define REFEREE_H
-#include <string>
+#ifndef CHEGINTHIS_REFEREE_H
+#define CHEGINTHIS_REFEREE_H
 
-#include "Player.h"
 
+
+#include "Human.h"
 class Referee {
-   public:
-       Referee();
-       ~Referee();
-       std::string getMove(std::string);
-       std::string Fight(Player *p1, Player *p2);
-      
-      
-      
-   private:
-       std::string checkWin(std::string, std::string);
-       bool checkValid(std::string);
-      
+public:
+    
+    Referee();
+    // returns the outcome for player1: 'W', 'L' or 'T' (Win, Lose, Tie)
+    char refGame(Human player1, Computer player2);
 };
 
-#endif
+
+#endif//CHEGINTHIS_REFEREE_H
