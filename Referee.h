@@ -1,5 +1,5 @@
 class Referee {
 //Function to check winner,loser and tie condition
 public:
-char checkGame(char, char);
+char refGame(char, char);
 };
