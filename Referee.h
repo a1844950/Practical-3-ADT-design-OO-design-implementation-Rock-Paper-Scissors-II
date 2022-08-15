@@ -7,7 +7,7 @@
 class Referee {
    public:
        Referee();
-       std::string grefGame(std::string);
+       std::string refGame(std::string);
        
       ~Referee();
       
