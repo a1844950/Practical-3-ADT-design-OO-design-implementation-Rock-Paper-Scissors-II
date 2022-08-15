@@ -1,28 +1,24 @@
 #ifndef TOURNAMENT_H
 #define TOURNAMENT_H
 
+#include <string>
+#include <vector>
 #include <array>
-#include "Referee.h"
 #include "Player.h"
-#include "RandomComputer.h"
-#include "Toolbox.h"
-#include "Avalanche.h"
-#include "Bureaucrat.h"
-#include "PaperDoll.h"
-#include "Crescendo.h"
-#include "FistfullODollars.h"
-
-using namespace std;
 
 
 class Tournament {
-  Referee r;
+    public:
+        Tournament();
 
-  public:
-    Tournament();
+        //int setPlayers();
+        Player* fivePlays(Player* player1, Player* player2);
 
-  Player*run(std::array<Player*, 8>competitors);
+        Player * run(array<Player *, 8>  competitors);
+        std::string compete();
+        ~Tournament();
 
+    private:
 
 
 };
