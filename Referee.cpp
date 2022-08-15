@@ -1,22 +1,19 @@
 #include "Referee.h"
-
-Referee::Referee() {}
-char Referee::refGame(Human player1, Computer player2) {
-    char playerMove = player1.makeMove();
-    char computerMove = player2.makeMove();
-    if (playerMove=='R'){
-        if (computerMove=='R') return 'T';
-        else if (computerMove=='P') return 'L'; 
-        else return 'W'; 
-    } 
-    else if (playerMove=='P'){
-        if (computerMove=='R') return 'W';
-        else if (computerMove=='P') return 'T'; 
-        else return 'W'; 
-    } else { 
-        if (computerMove=='R') return 'L';
-        else if (computerMove=='P') return 'W'; 
-        else return 'T'; 
-    }
+//Function to check winner,loser and tie condition
+char Referee::refGame(char hPlayer, char cPlayer) {
+if (hPlayer == 'P' && cPlayer=='R') {
+return 'W';
 }
-Footer
+else if (hPlayer == 'S' && cPlayer == 'R') {
+return 'L';
+}
+else if (hPlayer == 'R' && cPlayer == 'P') {
+return 'L';
+}
+else if (hPlayer == 'R' && cPlayer == 'S') {
+return 'W';
+}
+else if (hPlayer ==cPlayer) {
+return 'T';
+}
+}
